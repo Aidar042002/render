@@ -1,5 +1,6 @@
 import Header from "./Header";
 import React from "react";
+import AuthFooter from "./AuthFooter";
 
 export default function SignUpPage() {
     return (
@@ -25,9 +26,7 @@ export default function SignUpPage() {
                     <button className="btn btn-primary w-100 py-2" type="submit">Зарегистрироваться</button>
                 </form>
             </div>
-            <footer className="bg-dark text-white text-center py-3">
-                <p>Здесь просто футер</p>
-            </footer>
+            <AuthFooter/>
         </div>
     );
 }

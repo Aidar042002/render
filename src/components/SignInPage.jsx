@@ -1,5 +1,6 @@
 import Header from "./Header";
 import React from "react";
+import AuthFooter from "./AuthFooter";
 
 export default function SignInPage(){
     return (
@@ -24,9 +25,7 @@ export default function SignInPage(){
                     </div>
                 </form>
             </div>
-            <footer className="bg-dark text-white text-center py-3">
-                <p>Здесь просто футер</p>
-            </footer>
+            <AuthFooter/>
         </div>
     );
 }
